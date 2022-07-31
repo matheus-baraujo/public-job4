@@ -1,0 +1,60 @@
+/* css - conteudo da pagina about */
+
+body{
+    background-color: white;
+}
+
+
+.ceo{
+    font-size: 1.5rem; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.imgCeo{
+    margin-left: 20%;
+    width: 60%;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9) 15.15%, rgba(0, 0, 0, 0) 63.97%); 
+}
+
+.tituloCeo{
+    color: white; 
+    position: absolute; 
+    bottom: 0%; 
+    left: 22%; 
+    font-size: 1.3vw; 
+    padding-left: 1%; 
+    font-weight: bold;
+    margin-bottom: 0%; 
+    border-left: 2px solid white; 
+    padding-bottom: 0.5%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .ceo{
+        font-size: 1rem !important;
+        text-align: center;
+    }
+
+    .ceo1{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 5%;
+    }
+
+    .imgCeo{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .tituloCeo{
+        left: 2%;
+        font-size: 0.6rem !important;
+        padding-bottom: 0%;
+    }
+
+}
+
+
+

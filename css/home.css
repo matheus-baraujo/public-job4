@@ -1,0 +1,192 @@
+/*======== Home Desktop ========*/
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/*======== Slides =======*/
+
+.slideText{
+    position: absolute; 
+    bottom: 10%; 
+    left: 12%;
+}
+
+.tituloSlide{
+    font-size: 4rem; 
+    font-weight: bold;
+}
+
+.subtituloSlide{
+    font-size: 2.5rem;
+    width: 90%;
+}
+
+.tituloSlide2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.slideHome{
+    position: relative;
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding-bottom: 30%;
+}
+
+/*======== Servicos =========*/
+
+.subtituloServ{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.slideServicos{
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/*======== Para Voce ========*/
+
+.imgParaVoce{
+    margin-bottom: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.link-paraVoce{
+    color: lightgray;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.link-paraVoce:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+
+
+/*======== Blog ========*/
+
+.postHome1{
+    width: 100%;
+    height: 35vw;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    transition: ease-in-out; 
+}
+
+.postHome2{
+    width: 100%;
+    height: 10vw;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative; 
+}
+
+.postHome1:hover, .postHome2:hover{
+    opacity: 0.6;
+}
+
+.postHomeText{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+    background-color: rgba(55, 55, 55, 0.6);
+    padding: 5% 10%;
+}
+
+.postHomeText2{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+    background-color: rgba(55, 55, 55, 0.6);
+    padding: 5%;
+}
+
+.tituloPost1{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tituloPost2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link-blog{
+    color: white;
+    text-decoration: none;
+}
+
+.link-blog:hover{
+    color: darkgray;
+    text-decoration: none;
+}
+
+
+/*======== Home Mobile ========*/
+
+@media screen and (max-width: 600px) {
+
+    /*======= Slides =======*/
+
+    .slideHome{
+        padding-bottom: 40%;
+    }
+
+    .tituloSlide{
+        font-size: 1.5rem !important; 
+    }
+    
+    .subtituloSlide{
+        font-size: 0.8rem !important;
+    }
+
+
+    .link-paraVoce{
+        font-size: 0.7rem !important;
+    }
+    
+    /*======== Servicos ========*/
+
+    .subtituloServ{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .slideServicos{
+        width: 70% !important;
+    }
+
+    /*======== Blog =======*/
+
+    .postHome1{
+        height: 45vw;
+    }
+
+    .postHome2{
+        height: 25vw;
+    }
+
+    .link-blog{
+        font-size: 0.7rem !important;
+    }
+
+
+
+
+    
+}

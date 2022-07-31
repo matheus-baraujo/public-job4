@@ -1,0 +1,33 @@
+/* css - conteudo da pagina for you */
+
+body{
+    background-color: white;
+}
+
+.textoSobre{
+    margin-left: 5%;
+}
+
+.link-orcamento{
+    color: white;
+    text-decoration: none !important;
+    font-size: 1rem;
+    border-radius: 300px;
+    padding: 1%;
+    background-color: black;
+    margin-left: 5%;
+}
+
+.link-orcamento:hover{
+    color: lightgray;
+    background-color: darkgray;
+}
+
+@media screen and (max-width: 600px) {
+    .link-orcamento{
+        font-size: 0.8rem;
+        padding: 2%;
+    }
+}
+
+

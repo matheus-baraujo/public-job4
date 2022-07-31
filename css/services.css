@@ -1,0 +1,39 @@
+/* css - conteudo da pagina services */
+
+body{
+    background-color: white;
+}
+
+.slideServices{
+    width: 40%;
+}
+
+.tituloSlide2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.link-contato{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 300px;
+    padding: 1%;
+    background-color: black;
+}
+
+.link-contato:hover{
+    color: lightgray;
+    background-color: darkgray;
+}
+
+@media screen and (max-width: 600px) {
+    .link-contato{
+        font-size: 0.8rem;
+        padding: 2%;
+    }
+
+    .slideServices{
+        width: 80%;
+    }
+}

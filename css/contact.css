@@ -1,0 +1,125 @@
+/* css - conteudo da pagina contact */
+
+.form-contact{
+    margin: 6% 0%;
+}
+
+.input1{
+    width: 75%;
+}
+
+.input-texto{
+    margin-bottom: 1%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;
+    padding: 1%;
+    font-weight: lighter;
+}
+
+.input-texto::placeholder{
+    color: white;
+}
+
+.input-botao{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 500px;
+    padding: 1%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
+    margin-left: 63%;
+}
+
+.input-botao:hover{
+    color: darkgray;
+    background-color: lightgray;
+}
+
+.msg-sucess{
+    background-color: #28A745;
+    color: white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 500px;
+}
+
+.msg-fail{
+    background-color: #DC3545;
+    color: white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 500px;
+}
+
+/* login form */
+
+.form-contact2{
+    margin: 6% 6%;
+}
+
+.input3{
+    width: 100%;
+}
+
+.input-botao-login{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 500px;
+    padding: 2%;
+    font-size: 2.25rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
+    float: right;
+}
+
+.input-botao-login:hover{
+    color: darkgray;
+    background-color: lightgray;
+}
+
+/* logged admin */
+
+.btn-logout{
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+}
+
+.btn-logout:hover{
+    background-color: lightgrey;
+    color: darkgray;
+}
+
+.btn-edit-delete{
+    color: black;
+}
+
+.btn-edit-delete:hover{
+    color: darkgray;
+}
+
+.table-admin{
+    margin: 2% auto; 
+    background-color: white; 
+    padding: 0.5%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .texto-sessao2, .input-texto, .input-botao, .btn-logout, .input-botao-login{
+        font-size: 0.7rem !important;
+    }
+
+    .table-admin{
+        font-size: 0.5rem !important;
+    }
+}
+
